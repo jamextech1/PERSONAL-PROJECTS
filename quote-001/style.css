@@ -16,16 +16,44 @@ img {
   width: 100%;
 }
 .quote-container {
+  position: relative;
   display: grid;
   align-items: center;
   width: 50rem;
   height: 20rem;
   margin: 0 auto;
   background-color: rgba(16, 152, 173, 0.856);
-  padding: 2rem 4rem;
+  padding: 0 4rem;
+}
+.quote-content {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  margin-top: 1.8rem;
 }
 .quote-image {
-  width: 5rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: 0.2rem solid #343a40;
 }
 .quote-icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(50%, -50%);
+  fill: #343a40;
+}
+.quote-footer {
+  display: flex;
+  align-items: center;
+  gap: 1.9rem;
+}
+.p-one {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.p-two {
+  font-size: 1.2rem;
+  font-weight: 500;
 }
