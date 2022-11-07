@@ -18,7 +18,7 @@ img {
 .quote-container {
   display: grid;
   align-items: center;
-  width: 80rem;
+  width: 50rem;
   height: 20rem;
   margin: 0 auto;
   background-color: rgba(16, 152, 173, 0.856);
