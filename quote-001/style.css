@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  margin-top: 20rem;
+  color: #343a40;
+}
+img {
+  width: 100%;
+}
+.quote-container {
+  display: grid;
+  align-items: center;
+  width: 80rem;
+  height: 20rem;
+  margin: 0 auto;
+  background-color: rgba(16, 152, 173, 0.856);
+  padding: 2rem 4rem;
+}
+.quote-image {
+  width: 5rem;
+}
+.quote-icon {
+}
