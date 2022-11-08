@@ -17,8 +17,8 @@ img {
   width: 100%;
 }
 .container {
-  width: 95rem;
-  height: 45rem;
+  width: 120rem;
+  height: 55rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -38,19 +38,46 @@ img {
   background-repeat: no-repeat;
   padding: 8rem 3rem;
   align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .innerContainer {
+  height: 35rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
   background-color: #fafafa;
+  padding: 1rem 1rem;
+}
+.innerContainer-col-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 0 1rem;
+}
+.innerContainer-col-2 {
+  align-self: stretch;
 }
 .innerContainer-col-2-img {
-  width: 10rem;
+  height: 100%;
 }
 .content-nav {
   display: flex;
 }
+.content-nav-logo {
+  display: flex;
+}
+.content-nav-links {
+  display: flex;
+}
+.nav-icon {
+  height: 2rem;
+  width: 2rem;
+}
 .container-col-2 {
   color: #fafafa;
-  padding: 4rem 3rem 4rem 6rem;
+  padding: 4rem 6rem 4rem 9rem;
 }
 .simple {
   margin-bottom: 1.8rem;
