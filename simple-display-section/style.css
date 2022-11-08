@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat";
+  font-size: 1.8rem;
+}
+img {
+  width: 100%;
+}
+.container {
+  width: 90rem;
+  height: 40rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 10%;
+}
+.container-col-1 {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(images/bg--2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 8rem 1rem;
+}
+.innerContainer {
+  background-color: #fafafa;
+}
+.innerContainer-col-2-img {
+  width: 10rem;
+}
