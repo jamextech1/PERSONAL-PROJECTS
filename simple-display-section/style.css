@@ -10,19 +10,22 @@ html {
 body {
   font-family: "Montserrat";
   font-size: 1.8rem;
+  margin-top: 12rem;
+  margin-bottom: 10rem;
 }
 img {
   width: 100%;
 }
 .container {
-  width: 90rem;
-  height: 40rem;
+  width: 95rem;
+  height: 45rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   align-items: center;
-  gap: 10%;
+  gap: 1%;
+  background-color: #02171b;
 }
 .container-col-1 {
   background: linear-gradient(
@@ -33,11 +36,38 @@ img {
     url(images/bg--2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 8rem 1rem;
+  padding: 8rem 3rem;
+  align-self: stretch;
 }
 .innerContainer {
   background-color: #fafafa;
 }
 .innerContainer-col-2-img {
   width: 10rem;
+}
+.content-nav {
+  display: flex;
+}
+.container-col-2 {
+  color: #fafafa;
+  padding: 4rem 3rem 4rem 6rem;
+}
+.simple {
+  margin-bottom: 1.8rem;
+  font-size: 2.4rem;
+}
+.enjoy-your-trip {
+  margin-bottom: 2.4rem;
+  text-transform: capitalize;
+}
+.funded {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  letter-spacing: 0.12rem;
+  line-height: 1.5;
+  margin-bottom: 1.8rem;
+}
+.start {
+  color: #fafafa;
+  text-transform: uppercase;
 }
