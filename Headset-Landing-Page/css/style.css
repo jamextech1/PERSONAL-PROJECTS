@@ -238,3 +238,22 @@ nav {
   left: 20%;
   opacity: 0.6;
 }
+.flexible-col-2 {
+  display: grid;
+  gap: 2rem;
+}
+.flexible-h1 {
+  font-size: 3.4rem;
+  letter-spacing: 0.12rem;
+}
+.flexible-first-paragraph {
+  font-size: 2.2rem;
+  letter-spacing: 0.12rem;
+  opacity: 0.85;
+}
+.flexible-second-paragraph {
+  font-size: 1.9rem;
+  letter-spacing: 0.13rem;
+  line-height: 1.5;
+  opacity: 0.85;
+}
