@@ -5,7 +5,7 @@
   --minor-color: #51cf66;
   --minor-color2: #ffa8a8;
   --minor-color3: #ffec99;
-  --minor-col4: #997348;
+  --minor-color4: rgb(175, 135, 90);
   --minor-color5: #cc9a60;
 }
 * {
@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 .section {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 img {
@@ -28,6 +28,7 @@ body {
   font-family: "Lato";
   font-size: 1.8rem;
   color: var(--dark-color);
+  margin-bottom: 10rem;
 }
 header {
   background: linear-gradient(120deg, var(--minor-color), var(--main-color));
@@ -40,7 +41,7 @@ header {
 /* Nav styles */
 nav {
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,7 +76,7 @@ nav {
 /* end nav styles */
 /* content styles */
 .content {
-  width: 80%;
+  width: 85%;
   gap: 8rem;
   margin: 0 auto;
   display: grid;
@@ -164,4 +165,44 @@ nav {
   text-align: left;
   display: inline-block;
   margin-top: 2.4rem;
+}
+/* end content styles */
+.designed-section {
+  position: relative;
+  width: 100%;
+  background-color: var(--minor-color5);
+}
+.section-wrap {
+  margin-top: 19.2rem;
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 4rem;
+}
+.design-section-col-1 {
+  background-color: var(--minor-color4);
+  height: 100%;
+  display: flex;
+  gap: 2.4rem;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--light-color);
+  padding: 0 8rem;
+}
+.design-section-h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.design-section-paragraph-one {
+  font-size: 2.4rem;
+  font-weight: 450;
+  text-transform: capitalize;
+}
+.design-section-paragraph-two {
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+  line-height: 1.3;
 }
