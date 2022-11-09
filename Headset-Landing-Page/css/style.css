@@ -168,7 +168,6 @@ nav {
 }
 /* end content styles */
 .designed-section {
-  position: relative;
   width: 100%;
   background-color: var(--minor-color5);
 }
