@@ -30,6 +30,16 @@ body {
   color: var(--dark-color);
   margin-bottom: 10rem;
 }
+.fas {
+  margin-left: 1rem;
+}
+.grid-2-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 15rem;
+}
 header {
   background: linear-gradient(120deg, var(--minor-color), var(--main-color));
   height: 100vh;
@@ -126,6 +136,10 @@ nav {
   border: none;
   color: var(--dark-color);
 }
+.col-2-img {
+  transform: rotate(20deg);
+  width: calc(100% - 6rem);
+}
 /* end hero section */
 
 /* menu section */
@@ -167,6 +181,7 @@ nav {
   margin-top: 2.4rem;
 }
 /* end content styles */
+/* designed section styles */
 .designed-section {
   width: 100%;
   background-color: var(--minor-color5);
@@ -204,4 +219,22 @@ nav {
   font-weight: 400;
   letter-spacing: 0.15rem;
   line-height: 1.3;
+}
+/* end designed styles */
+/* flexible styles */
+.flexibility-section {
+  position: relative;
+  margin-top: 19.2rem;
+}
+.flexibility-section::after {
+  content: "";
+  height: 50rem;
+  width: 6rem;
+  background: linear-gradient(340deg, var(--main-color), var(--minor-color));
+  position: absolute;
+  transform: rotate(-45deg);
+  z-index: -1;
+  position: absolute;
+  left: 20%;
+  opacity: 0.6;
 }
