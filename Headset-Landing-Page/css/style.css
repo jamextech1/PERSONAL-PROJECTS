@@ -104,7 +104,7 @@ nav {
 }
 .content-first-p {
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: capitalize;
   color: var(--light-color);
   letter-spacing: 0.18rem;
