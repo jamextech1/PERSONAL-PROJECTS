@@ -228,7 +228,7 @@ nav {
 }
 .flexibility-section::after {
   content: "";
-  height: 50rem;
+  height: 60rem;
   width: 6rem;
   background: linear-gradient(340deg, var(--main-color), var(--minor-color));
   position: absolute;
