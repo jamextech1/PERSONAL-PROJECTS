@@ -1,3 +1,4 @@
+@import url(keyframes.css);
 :root {
   --main-color: #15aabf;
   --light-color: #fff;
@@ -29,6 +30,7 @@ body {
   font-size: 1.8rem;
   color: var(--dark-color);
   margin-bottom: 10rem;
+  /* overflow-x: hidden; */
 }
 .fas {
   margin-left: 1rem;
@@ -78,10 +80,14 @@ nav {
   padding: 0.5rem 1rem;
   color: var(--light-color);
 }
+.nav-links a:hover {
+  animation: slideInLeft 0.3s ease-in-out;
+  border-bottom: 0.2rem solid var(--light-color);
+}
 .nav-buy-now {
   margin-left: 3rem;
   border-radius: 10rem;
-  border: 0.15rem solid var(--light-color);
+  border: 0.2rem solid var(--light-color);
 }
 /* end nav styles */
 /* content styles */
@@ -116,25 +122,24 @@ nav {
   gap: 1.8rem;
   align-items: center;
 }
-.btn-icon {
-  width: 1.8rem;
-  height: 1.8rem;
-}
 .btn {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  border: 0.2rem solid var(--light-color);
+  display: inline-block;
+  border: 0.2rem solid var(--main-color);
   border-radius: 10rem;
   text-decoration: none;
-  color: var(--light-color);
+  color: var(--main-color);
   text-transform: uppercase;
   padding: 0.8rem 1.6rem;
+  justify-self: start;
 }
 .first-btn {
   background-color: var(--light-color);
   border: none;
   color: var(--dark-color);
+}
+.second-btn {
+  border: 0.2rem solid var(--light-color);
+  color: var(--light-color);
 }
 .col-2-img {
   transform: rotate(20deg);
@@ -172,12 +177,6 @@ nav {
   line-height: 1.15;
 }
 .menu--btn {
-  border: 0.2rem solid var(--main-color);
-  color: var(--main-color);
-  display: grid;
-  justify-self: start;
-  text-align: left;
-  display: inline-block;
   margin-top: 2.4rem;
 }
 /* end content styles */
@@ -257,6 +256,119 @@ nav {
   line-height: 1.5;
   opacity: 0.85;
 }
-.menu--btn {
-  padding: 1rem 1.6rem;
+/* end flexible section styles */
+/* product section styles */
+.product-display-section {
+  margin-top: 19.2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  justify-items: center;
+}
+.product-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.product-img {
+  width: 19rem;
+  transform: rotate(10deg);
+  margin-bottom: 1rem;
+}
+.product-h1 {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.product-first-paragraph {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.product-second-paragraph {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+/* end product display section styles */
+/* testimonial section styles */
+.testimonial-section {
+  margin-top: 19.2rem;
+}
+.testimonial-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+.testimonial-img {
+  width: 10rem;
+  border-radius: 50%;
+  align-self: flex-start;
+}
+.testimonial-context {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.testimonial-first-paragraph {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.testimonial-second-paragraph {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.testimonial--three {
+  grid-column: 2;
+  grid-row: 1;
+}
+.testimonial--two {
+  grid-column: 2;
+  grid-row: 2;
+}
+/* end testimonial section styles */
+.features-section {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 19.2rem;
+  background: linear-gradient(150deg, var(--main-color), var(--minor-color));
+}
+.features-section-wrap {
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+}
+.features-section-first-context {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.features-number {
+  font-size: 3.6rem;
+  font-weight: 700;
+  align-self: flex-start;
+}
+.features-section-h1 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+.features-section-first-paragraph {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.1;
+}
+.features-section-context {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 8rem 0;
+}
+.features-section-img {
+  transform: rotate(98deg);
+  position: absolute;
+  right: -15%;
+  width: 70%;
 }
