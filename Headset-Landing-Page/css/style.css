@@ -88,6 +88,11 @@ nav {
   border-radius: 10rem;
   border: 0.2rem solid var(--light-color);
 }
+.hamburger {
+  color: var(--light-color);
+  font-size: 3.2rem;
+  display: none;
+}
 /* end nav styles */
 /* content styles */
 .content {
