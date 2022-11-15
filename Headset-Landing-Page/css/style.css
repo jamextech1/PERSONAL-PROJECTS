@@ -29,7 +29,6 @@ body {
   font-family: "Lato";
   font-size: 1.8rem;
   color: var(--dark-color);
-  margin-bottom: 10rem;
   /* overflow-x: hidden; */
 }
 .fas {
@@ -386,7 +385,7 @@ nav {
 }
 
 .sound-wave-headphone-img {
-  width: 30rem;
+  width: 80rem;
 }
 .sound-wave-section-h2 {
   font-size: 4.4rem;
@@ -394,4 +393,44 @@ nav {
   background: linear-gradient(120deg, var(--main-color), var(--minor-color));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
+/* end sound wave display section */
+/* footer section */
+.footer-section {
+  background: var(--dark-color);
+  margin-top: 19.2rem;
+  width: 100%;
+  padding: 8rem 0;
+}
+.footer-section-wrap {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.footer-logo-img {
+  width: 15rem;
+}
+.footer-navs a {
+  text-decoration: none;
+  color: var(--light-color);
+  font-size: 2.4rem;
+  padding: 0 1rem;
+}
+.footer-btn {
+  padding: 0.5rem 0.8rem;
+  align-self: end;
+}
+.footer-copyright {
+  color: var(--light-color);
+  opacity: 0.3;
+}
+.footer-btnCopyright {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+/* end footer section */
