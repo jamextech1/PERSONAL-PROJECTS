@@ -1,2 +1,88 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1027px) {
+  html {
+    font-size: 52.5%;
+  }
+  /* hero section */
+  .content-second-p {
+    flex-wrap: wrap-reverse;
+  }
+  /* end hero section */
+  /* product display section */
+  .product-display-section {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 9rem;
+  }
+  /* end product display section */
+  /* testimonial section */
+  .testimonial-section {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+  .testimonial-card {
+    display: block;
+  }
+  .testimonial--two {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .testimonial--three {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  /* end testimonial section */
+  /* features section */
+  .features-section {
+    text-align: center;
+  }
+  .features-section-wrap {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    text-align: center;
+  }
+  .features-section-img {
+    position: relative;
+    grid-row: 1;
+    transform: rotate(360deg);
+    justify-self: start;
+  }
+  /* end features section */
+}
+/*  */
+/*  */
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 58.8%;
+  }
+  /* nav styles */
+  .nav-links {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  /* end nav styles */
+  /* sound wave section */
+  .sound-wave-headphone-img {
+    width: 40rem;
+  }
+  .sound-wave-section-h2 {
+    font-size: 3.2rem;
+  }
+  /* end sound wave section */
+  /* footer section */
+  .footer-section {
+    text-align: center;
+  }
+  .footer-section-wrap {
+    grid-template-columns: 1fr;
+    row-gap: 3.5rem;
+  }
+  .footer-btn {
+    align-self: center;
+  }
+  .footer-navs {
+    display: grid;
+    gap: 2rem;
+  }
+  /* end footer section */
 }
