@@ -43,9 +43,10 @@ body {
 }
 header {
   background: linear-gradient(120deg, var(--minor-color), var(--main-color));
-  height: 100vh;
+  height: initial;
   overflow: hidden;
   position: relative;
+  padding-bottom: 5rem;
 }
 /* General styles ends */
 
@@ -92,6 +93,7 @@ nav {
   color: var(--light-color);
   font-size: 3.2rem;
   display: none;
+  cursor: pointer;
 }
 /* end nav styles */
 /* content styles */
