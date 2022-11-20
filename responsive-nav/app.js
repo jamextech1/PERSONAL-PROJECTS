@@ -8,6 +8,6 @@ btn.addEventListener("click", function (e) {
 });
 btn2.addEventListener("click", function (e) {
   btn2.style.display = "none";
-  btn3.style.top = "-100%";
+  btn3.style.top = "-200%";
   btn.style.display = "block";
 });

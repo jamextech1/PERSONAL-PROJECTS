@@ -39,7 +39,7 @@ nav {
 .toggler {
   display: none;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 480px) {
   .nav-links {
     position: fixed;
     display: flex;
@@ -51,7 +51,7 @@ nav {
     height: 100vh;
     width: 100%;
     /* top: 9.3%; */
-    top: -100%;
+    top: -200%;
     left: 0;
     transition: 0.3s ease-in-out;
   }
