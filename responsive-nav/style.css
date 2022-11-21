@@ -56,8 +56,8 @@ nav {
     height: 100vh;
     width: 100%;
     /* top: 9.3%; */
-    top: -200%;
-    left: 0;
+    top: 7.9%;
+    left: -200%;
     transition: 0.3s ease-in-out;
   }
   .toggler {
